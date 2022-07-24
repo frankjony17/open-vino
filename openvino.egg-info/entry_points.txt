@@ -1,0 +1,3 @@
+[console_scripts]
+openvino = src.__main__:start
+
