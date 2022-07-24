@@ -14,11 +14,11 @@ Installation
 ------------
 
 Criar pastas com o nome: lib, model
-Copiar na pasta lib os arquivos:
+## Copiar na pasta lib os arquivos:
 	- libcpu_extension.so
 	- libformat_reader.so
 	- libgflags_nothreads.a
-Criar dentra da pasta model as pastas:
+### Criar dentra da pasta model as pastas:
 	- age-gender
 		- FP16
 			- age-gender-recognition.bin # Copiar arquivo
@@ -61,7 +61,7 @@ Criar dentra da pasta model as pastas:
 			- head-pose-estimation.bin # Copiar arquivo
 			- head-pose-estimation.xml # Copiar arquivo
 
-Procurar os modelos na instalação de openvino. Os nomes poden no ser do mesmo jeito.
+## Procurar os modelos na instalação de openvino. Os nomes poden no ser do mesmo jeito.
 
 ```bash
 $ sudo mkdir /var/log/openvino  # creates openvino logging folder
